@@ -15,6 +15,8 @@ while True:
 
     mydivs = soup.findAll("div", {"class": "add-to-cart-button"})
 
+    print(mydivs)
+
     if mydivs != []:
         send_text('3060 IN STOCK!!!', '+18312772449')
     time.sleep(60)
